@@ -54,7 +54,7 @@ navbar ul li a{
 }
 navbar ul li a:hover{
     background: #fff;
-    color: rgb(10, 190, 73);
+    color: rgb(69, 125, 197);
 }
 .toggle-btn{
     width: 3rem;
@@ -86,7 +86,7 @@ navbar ul li a:hover{
         height: 250px;
         margin: 0.5rem auto 0rem 0rem;
         transition: 0.5s;
-        background: rgb(10, 190, 73);
+        background: rgb(69, 125, 197);
         text-align: center;
         transition-duration: all 2s ease;
         width: 100%;
@@ -220,12 +220,15 @@ h2{
     text-align: center;
     font-size: 2rem;
     font-family: cursive;
-    color: rgb(10, 190, 73);
+    color: rgb(69, 125, 197);
 }
 h3{
     font-size: 1.5rem;
     text-decoration: underline;
-    color: rgb(10, 190, 73);
+    color: rgb(69, 125, 197);
+}
+.skill h2{
+    color: #fff;
 }
 #about-card-2 article .fa-university{
     text-align: center;
@@ -244,7 +247,7 @@ h3{
     text-align: center;
     font-size: 1.4rem;
     text-decoration: none;
-    background-color: rgb(10, 190, 73);
+    background-color: rgb(69, 125, 197);
     color: #fff;
     box-shadow: 3px 3px 5px rgb(32, 36, 39);
 }
@@ -258,7 +261,7 @@ h3{
 
 /*==============skill section===============*/
 .skill{
-    background-color: rgb(10, 190, 73);
+    background-color: rgb(69, 125, 197);
     padding: 10rem 2.4rem 7rem 2.4rem;
     transition: all 0.5s ease;
     display: flex;
@@ -335,7 +338,7 @@ h3{
 
 /*===============project section===============*/
 .project{
-    padding: 8rem 2.4rem 0rem 2.4rem;
+    padding: 5rem 2.4rem 0rem 2.4rem;
 }
 .project-wrapper{
     margin: 2rem 0rem;
@@ -361,7 +364,7 @@ h3{
 }
 .project-wrapper .card article a{
     text-decoration: none;
-    color: rgb(10, 190, 73);
+    color: rgb(69, 125, 197);
 }
 .project-wrapper article a:hover{
     padding: 0.5rem 1rem;
@@ -369,7 +372,7 @@ h3{
     text-align: center;
 
     text-decoration: none;
-    background-color: rgb(10, 190, 73);
+    background-color: rgb(69, 125, 197);
     color: #fff;
     box-shadow: 3px 3px 5px rgb(32, 36, 39);;
 }
@@ -452,7 +455,7 @@ h3{
 
 /*==================email section==================*/
 .email-container{
-    background: rgb(10, 190, 73);
+    background: rgb(69, 125, 197);
     padding: 6rem 1.5rem;
     display: flex;
     flex-direction: column;
@@ -487,7 +490,7 @@ h3{
     text-align: center;
     border-radius: 0.6rem;
     font-size: 1.3rem;
-    background: rgb(10, 190, 73);
+    background: rgb(69, 125, 197);
     color: #fff;
     border-width: 0rem;
 }
@@ -495,7 +498,7 @@ h3{
     background-color: whitesmoke;
     transition: all 0.5s ease-in-out;
     box-shadow: 3px 3px 5px 3px rgb(32, 36, 39);
-    color: rgb(10, 190, 73);
+    color: rgb(69, 125, 197);
 }
 .form-container{
     margin: 1rem;
@@ -532,7 +535,7 @@ input, textarea{
 }
 #submit:hover{
     background-color: whitesmoke;
-    color: rgb(10, 190, 73);
+    color: rgb(69, 125, 197);
     outline: #fdf3f2;
     box-shadow: 3px 3px 5px 3px rgb(32, 36, 39);
     cursor: pointer;
@@ -572,7 +575,7 @@ input, textarea{
 
 /*============social-link section================*/
 .contact-section{
-    background-color: rgb(10, 190, 73);
+    background-color: rgb(69, 125, 197)
 }
 #connect{
     padding: 2rem 0rem;
@@ -655,13 +658,13 @@ footer{
 }
 .quick-link ul li a:hover{
     text-decoration: underline;
-    color: rgb(10, 190, 73);
+    color: rgb(69, 125, 197);
 }
 .box .phone-number{
     padding-top: 1.5rem;
 }
 .scroll-top{
-    background-color: rgb(10, 190, 73);
+    background-color: rgb(69, 125, 197);
     height: 36px;
     width: 36px;
 }
