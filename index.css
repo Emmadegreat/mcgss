@@ -18,7 +18,7 @@ p{
     padding: 0rem 3.5rem;
     display: flex;
     flex-direction: row;
-    background: rgb(10, 190, 73);
+    background: rgb(69, 125, 197);
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -135,8 +135,8 @@ navbar ul li a:hover{
 /*================hero-section=============*/
 .hero-section{
     width: 100%;
-    height: 90vh;
-    background: url('./images/developer.png') no-repeat center center / cover;
+    height: 100vh;
+    background: url('./images/hero-img.jpg') no-repeat center center / cover;
     place-content: center;
     place-items: center;
 }
@@ -158,6 +158,17 @@ navbar ul li a:hover{
 .about{
     padding: 5rem 2.4rem 5rem 2.5rem;
 }
+.about-techgirls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-techgirls h1{
+    color: rgb(69, 125, 197);
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
 .about-wrapper{
     display: flex;
     justify-content: space-around;
@@ -174,14 +185,19 @@ navbar ul li a:hover{
     justify-content: center;
     align-items: center;
     padding: 1rem 0rem;
+    margin-top: 3.5rem;
+}
+.about-card h2{
+    color: rgb(69, 125, 197);
 }
 
-.profile-pix img{
-    max-width: 270px;
-    width: 100%;
-    height: auto;
-    z-index: 1000;
-    border-radius: 50%;
+.icon{
+    font-size: 3rem;
+    color: red;
+    padding: 1rem;
+}
+.about-card .vision-stat p{
+    text-align: justify;
 }
 
 .profile-pix:hover{
@@ -189,10 +205,10 @@ navbar ul li a:hover{
     transition: all 0.2 ease;
     transform: translateY(-20px);
 }
-.about-card .profile{
+.about-card .vision-stat{
     margin: 0.8rem 0rem;
     text-align: center;
-    color: rgb(10, 190, 73);
+    color: #000;
 }
 .about-card .profile span{
     color: #000;
@@ -210,6 +226,11 @@ h3{
     font-size: 1.5rem;
     text-decoration: underline;
     color: rgb(10, 190, 73);
+}
+#about-card-2 article .fa-university{
+    text-align: center;
+    color: rgb(69, 125, 197);
+    margin-bottom: 1.5rem;
 }
 
 #about-card-2 article p{
