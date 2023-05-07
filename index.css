@@ -13,7 +13,7 @@ p{
 }
 /*============header===========*/
 .navigation-bar{
-    width: 100vw;
+    width: 100%;
     height: 70px;
     padding: 0rem 3.5rem;
     display: flex;
@@ -136,10 +136,13 @@ navbar ul li a:hover{
 /*============header end===============*/
 
 /*================hero-section=============*/
+.spacer{
+    padding-top: 4rem;
+}
 .hero-section{
     width: 100%;
-    height: 100vh;
-    background: url('./images/hero-img.jpg') no-repeat center center / cover;
+    height: 150vh;
+    background: url('./images/hero-img1.jpg') no-repeat center center / cover;
     place-content: center;
     place-items: center;
 }
@@ -148,6 +151,9 @@ navbar ul li a:hover{
     .hero-section{
         height: 70vh;
         width: 100%;
+    }
+    .spacer{
+        padding-top: 3.5rem;
     }
 }
 @media screen and (max-width:425px){
@@ -508,40 +514,39 @@ h3{
     margin: 1rem;
 }
 .map-card{
-    flex-basis: 46%;
+    flex-basis: 45%;
 }
-.form-wrapper{
-    margin: 1rem;
+#form{
     display: block;
     transition: all 0.5s ease-in-out;
     border-radius: 1rem;
-    padding: 1rem;
-    width: 100%;
 }
 
-.form-wrapper table label{
+#form table label{
     color: #fff;
-    width: 100%;
 }
 
 /*.show{
     height: 100%;
     display: block;
 }*/
-input, textarea{
-    margin: 0.2rem 1.5rem;
+#form input, #form textarea{
+    margin: 0.2rem;
     padding: 0.3rem;
-    min-width: 250px;
-    width: 100%;
+    max-width: 100%;
     border-width: 0rem;
     font-size: 1.1rem;
     border-radius: 0.3rem;
 }
-#submit{
+#form textarea{
+    width: 100%;
+}
+#form #submit{
     background-color:rgb(41 39 39);
     color: #fff;
     border-width: 0rem;
     cursor: pointer;
+    width: 100%;
     border-radius: 0.3rem;
 }
 #submit:hover{
@@ -555,7 +560,9 @@ input, textarea{
 @media screen and (max-width:600px){
     .map-container{
         flex-direction: column;
+        padding: 0.5rem;
     }
+
     .email-card p{
         font-weight: 500;
         font-size: 2rem;
@@ -565,10 +572,10 @@ input, textarea{
         width: 200px;
         font-size: 1.1rem;
     }
-    input, textarea{
+    #form input, textarea{
         margin: 0.2rem 0.6rem;
         padding: 0.3rem;
-        max-width: 240px;
+
         width: 100%;
     }
 }
@@ -580,6 +587,9 @@ input, textarea{
         font-weight: 600;
         font-size: 1.5rem;
         text-align: justify;
+    }
+    #form input, #form textarea, #form #submit{
+        width: 100%;
     }
     .email-button{
         width: 180px;
