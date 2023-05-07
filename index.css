@@ -25,9 +25,8 @@ p{
     z-index: 4000;
 }
 .logo img{
-    width: 50px;
-    height: 50px;
-    padding: 0.2rem 0rem;
+    width: 70px;
+    height: 75px;
 }
 .my-number{
     color: #fdf3f2;
@@ -79,6 +78,10 @@ navbar ul li a:hover{
         transition: all 0.5s ease;
         height: 0;
         overflow: hidden;
+    }
+    .logo img{
+        width: 60px;
+        height: 65px;
     }
     navbar ul{
         display: flex;
@@ -460,6 +463,7 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .email-card{
     background: whitesmoke;
@@ -480,10 +484,8 @@ h3{
     font-size: 2.5rem;
     font-weight: 700;
 }
-.email-card p:nth-child(2){
-    margin-bottom: 4rem;
-}
-.email-button{
+
+.reg-link{
     height: 60px;
     width: 210px;
     padding: 0.5rem;
@@ -494,33 +496,42 @@ h3{
     color: #fff;
     border-width: 0rem;
 }
-.email-button:hover{
+.reg-link:hover{
     background-color: whitesmoke;
     transition: all 0.5s ease-in-out;
     box-shadow: 3px 3px 5px 3px rgb(32, 36, 39);
     color: rgb(69, 125, 197);
 }
-.form-container{
+.map-container{
+    display: flex;
+    justify-content: space-between;
     margin: 1rem;
-    display: none;
+}
+.map-card{
+    flex-basis: 46%;
+}
+.form-wrapper{
+    margin: 1rem;
+    display: block;
     transition: all 0.5s ease-in-out;
-    border: 1px solid whitesmoke;
     border-radius: 1rem;
     padding: 1rem;
+    width: 100%;
 }
 
-.form-container table label{
+.form-wrapper table label{
     color: #fff;
+    width: 100%;
 }
 
-.show{
+/*.show{
     height: 100%;
     display: block;
-}
+}*/
 input, textarea{
     margin: 0.2rem 1.5rem;
     padding: 0.3rem;
-    max-width: 250px;
+    min-width: 250px;
     width: 100%;
     border-width: 0rem;
     font-size: 1.1rem;
@@ -542,6 +553,9 @@ input, textarea{
     border-radius: 0.3rem;
 }
 @media screen and (max-width:600px){
+    .map-container{
+        flex-direction: column;
+    }
     .email-card p{
         font-weight: 500;
         font-size: 2rem;
@@ -668,7 +682,7 @@ footer{
     height: 36px;
     width: 36px;
 }
-.scroll-top a{
+.scroll-top a i{
     color: #fff;
 }
 footer hr{

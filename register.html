@@ -4,15 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="my personal portfolio website">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./images/SCHOOL LOGO.png">
+    <title>MCGSS</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
-    <form action="" method="post">
+    <header class="navigation-bar">
+        <div class="logo">
+            <a href=""><img src="./images//SCHOOL LOGO.png" alt="mcgss-logo"></a>
+        </div>
+        <div  class="my-number">
+            <p>&#128222; +2347033135801</p>
+        </div>
+        <div class="toggle-btn" onclick="Toggle()"; id="toggle-btn">
+            <button id="bt">&#9776;</button>
+            <button id="cross">&#10006;</button>
+        </div>
+        <navbar class="links-wrapper">
+            <ul class="ul">
+                <li><a href="./index.html" class="link">home</a></li>
+                <li><a href="./register.html" class="link">register</a></li>
+                <li><a href="./index.html#services" class="link">services</a></li>
+                <li><a href="./#contact" class="link">contact</a></li>
+            </ul>
+        </navbar>
+
+    </header>
+    <form action="" method="post" style="padding-top: 5rem;margin: auto;width: 500px;">
         <input type="text" name="name" placeholder="Full Name"><br>
         <input type="email" name="email" id="" placeholder="Email"><br>
         <input type="tel" name="phone" id="" placeholder="Phone Number"><br>
         <button type="submit">Register</button>
     </form>
 
+    <footer>
+        <section class="footer-wrapper">
+            <div class="box">
+                <address>
+                    <div class="scroll-top page-scroll visible-xs visible-sm visible-m visible-lg"><!---SCROLL TO TOP BUTTON-->
+                    <a href="#" class="btn btn-warning">
+                    <i class="fa fa-chevron-up"></i>
+                    </a>
+                  </div>
+                </address>
+            </div>
+            <div class="box">
+                <p class="phone-number">&#128222; +234-703-313-5801</p>
+            </div>
+            <div class="box">
+                <h4>Quick Links</h4>
+                <div class="quick-link">
+                    <ul class="nav-menu">
+                        <li><a href="#about">about</a></li>
+                        <li><a href="./register.html">register</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section><hr>
+        <section class="copyright">
+            <span>All Right Reserved &nbsp;| &nbsp;&copy; MCGSS &nbsp; | &nbsp;</span> <span id="year"></span>
+        </section>
+    </footer>
+    <script type="" src="./index.js"></script>
 </body>
 </html>

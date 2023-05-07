@@ -11,15 +11,6 @@ document.querySelectorAll('.link').forEach(n => n.addEventListener('click', () =
     navbar.classList.remove('active');
 }));
 
-//email form toggling
-let btn = document.getElementById('email-btn');
-let form = document.getElementById('form');
-
-btn.addEventListener('click', (e) => {
-    e.preventDefault();
-    form.classList.toggle('show');
-})
-
 
 let full_year = document.getElementById("year");
 full_year.innerHTML = new Date().getFullYear();
@@ -39,6 +30,16 @@ toggle.addEventListener('click', (e) => {
         cross.style.display = 'none';
         bt.style.display = 'block';
     }
-})
+});
+
+//email form toggling
+/*let btn = document.getElementById('email-btn');
+let form = document.getElementById('form');
+
+btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    form.classList.toggle('show');
+});*/
+
 
 
