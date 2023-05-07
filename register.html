@@ -43,12 +43,22 @@
         </navbar>
 
     </header>
-    <div style="padding-top: 15rem;margin: auto;width: 500px;">
-        <form action="" method="post" >
-        <input type="text" name="name" placeholder="Full Name"><br>
-        <input type="email" name="email" id="" placeholder="Email"><br>
-        <input type="tel" name="phone" id="" placeholder="Phone Number"><br>
-        <button type="submit">Register</button>
+    <div class="register-wrapper">
+        <div style="color:red;font-size: 1.2rem;">
+            <b>WELCOME TO MODEL COMPREHENSIVE GIRLS SECONDARY SCHOOL</b><br><br>
+        </div>
+        <form action="#" >
+        <input type="text" name="name" placeholder="Full Name"required><br>
+        <input type="email" name="email" id="" placeholder="Email"required><br>
+        <input type="tel" name="phone" id="" placeholder="Phone Number"required><br>
+        <select name="gender" id="gender"required>
+            <option value="">Gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select>
+        <p>Dob</p>
+        <input type="date" name="dob" id="" required>
+        <button type="submit" id="register-btn">Register</button>
     </form>
     </div>
 
